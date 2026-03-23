@@ -6,7 +6,7 @@ A personal collection of Python and Bash scripts to automate and simplify day-to
 ## 📁 Structure
 
 ```
-devops-toolkit/
+scripts/
 ├── python/       # Python scripts
 ├── bash/         # Bash scripts
 └── README.md
