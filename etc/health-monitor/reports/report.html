@@ -1,0 +1,112 @@
+
+<html>
+
+<head>
+
+<title>Server Health Monitoring Report</title>
+
+<style>
+
+body {
+font-family: Arial, sans-serif;
+background-color: #0f172a;
+color: #e5e7eb;
+padding: 30px;
+}
+
+h2 {
+color: #38bdf8;
+}
+
+table {
+border-collapse: collapse;
+width: 70%;
+margin-top: 20px;
+}
+
+th {
+background-color: #1e293b;
+padding: 12px;
+}
+
+td {
+padding: 12px;
+text-align: center;
+}
+
+.pass {
+background-color: #14532d;
+color: #bbf7d0;
+}
+
+.alert {
+background-color: #7f1d1d;
+color: #fecaca;
+}
+
+.logbox {
+background: #020617;
+padding: 15px;
+margin-top: 20px;
+border-radius: 8px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<h2>Server Health Monitoring Report</h2>
+
+<p><strong>Generated:</strong> Fri 24 Apr 18:20:01 IST 2026</p>
+
+
+<table>
+
+<tr>
+<th>Metric</th>
+<th>Usage</th>
+<th>Threshold</th>
+<th>Status</th>
+</tr>
+
+<tr class='pass'>
+<td>CPU</td>
+<td>11.8%</td>
+<td>80%</td>
+<td>PASS</td>
+</tr>
+<tr class='pass'>
+<td>Memory</td>
+<td>64.5%</td>
+<td>75%</td>
+<td>PASS</td>
+</tr>
+<tr class='pass'>
+<td>Disk</td>
+<td>50%</td>
+<td>90%</td>
+<td>PASS</td>
+</tr>
+</table>
+<div class='logbox'>
+<h3>Last 10 Log Entries</h3>
+<pre>
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 18:20:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 18:20:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 18:20:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 18:20:01] SERVICE:nginx ALERT
+
+Health check completed.
+</pre>
+</div>
+
+</body>
+</html>
+

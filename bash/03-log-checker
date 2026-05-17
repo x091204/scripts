@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+ERROR_COUNT=$(sudo grep "$(date +"%b %e")" /var/log/messages | grep -i error | wc -l)
+
+echo "====log checker===="
+
+if [ $ERROR_COUNT -gt 0 ]; then
+	echo "Total Error Count: $ERROR_COUNT"
+else
+	echo "No errors today"
+fi

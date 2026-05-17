@@ -1,0 +1,1249 @@
+[2026-04-24 10:17:42] CPU PASS 6.1%
+[2026-04-24 10:23:08] CPU ALERT 9.1%
+[2026-04-24 10:24:26] CPU ALERT 3.1%
+[2026-04-24 10:36:29] MEMORY PASS 46.7%
+[2026-04-24 10:49:44] CPU PASS 13.5%
+[2026-04-24 11:01:24] DISK PASS 49%
+[2026-04-24 11:07:44] SERVICE: ALERT
+[2026-04-24 11:07:44] SERVICE: ALERT
+[2026-04-24 11:07:44] SERVICE: ALERT
+[2026-04-24 11:08:25] SERVICE: ALERT
+[2026-04-24 11:08:25] SERVICE: ALERT
+[2026-04-24 11:08:25] SERVICE: ALERT
+[2026-04-24 11:10:04] SERVICE:ssh ALERT
+[2026-04-24 11:10:04] SERVICE:cron ALERT
+[2026-04-24 11:10:04] SERVICE:nginx ALERT
+[2026-04-24 11:11:27] SERVICE:sshd PASS
+[2026-04-24 11:11:27] SERVICE:cron ALERT
+[2026-04-24 11:11:27] SERVICE:nginx ALERT
+[2026-04-24 11:11:52] SERVICE:sshd PASS
+[2026-04-24 11:11:52] SERVICE:crond PASS
+[2026-04-24 11:11:52] SERVICE:nginx ALERT
+[2026-04-24 11:25:24] CPU PASS 3.1%
+[2026-04-24 11:25:24] MEMORY PASS 47.8%
+[2026-04-24 11:25:24] DISK PASS 49%
+[2026-04-24 11:25:24] SERVICE:sshd PASS
+[2026-04-24 11:25:24] SERVICE:crond PASS
+[2026-04-24 11:25:24] SERVICE:nginx ALERT
+[2026-04-24 11:41:41] CPU PASS 6.1%
+[2026-04-24 11:41:41] MEMORY PASS 48.2%
+[2026-04-24 11:41:41] DISK PASS 49%
+[2026-04-24 11:41:41] SERVICE:sshd PASS
+[2026-04-24 11:41:41] SERVICE:crond PASS
+[2026-04-24 11:41:41] SERVICE:nginx ALERT
+[2026-04-24 11:50:37] CPU PASS 8.6%
+[2026-04-24 11:50:37] MEMORY ALERT 80.3%
+[2026-04-24 11:50:37] DISK PASS 49%
+[2026-04-24 11:50:37] SERVICE:sshd PASS
+[2026-04-24 11:50:37] SERVICE:crond PASS
+[2026-04-24 11:50:37] SERVICE:nginx ALERT
+[2026-04-24 11:51:42] CPU PASS 8.8%
+[2026-04-24 11:51:42] MEMORY PASS 66.7%
+[2026-04-24 11:51:42] DISK PASS 49%
+[2026-04-24 11:51:42] SERVICE:sshd PASS
+[2026-04-24 11:51:42] SERVICE:crond PASS
+[2026-04-24 11:51:42] SERVICE:nginx ALERT
+[2026-04-24 13:30:16] CPU PASS 40%
+[2026-04-24 13:30:16] MEMORY PASS 72.3%
+[2026-04-24 13:30:16] DISK PASS 49%
+[2026-04-24 13:30:16] SERVICE:sshd PASS
+[2026-04-24 13:30:16] SERVICE:crond PASS
+[2026-04-24 13:30:16] SERVICE:nginx ALERT
+[2026-04-24 13:33:15] CPU PASS 8.6%
+[2026-04-24 13:33:15] MEMORY PASS 68.2%
+[2026-04-24 13:33:15] DISK PASS 49%
+[2026-04-24 13:33:15] SERVICE:sshd PASS
+[2026-04-24 13:33:15] SERVICE:crond PASS
+[2026-04-24 13:33:15] SERVICE:nginx ALERT
+[2026-04-24 13:33:45] CPU ALERT 100%
+[2026-04-24 13:33:45] MEMORY PASS 68.3%
+[2026-04-24 13:33:45] DISK PASS 49%
+[2026-04-24 13:33:45] SERVICE:sshd PASS
+[2026-04-24 13:33:45] SERVICE:crond PASS
+[2026-04-24 13:33:45] SERVICE:nginx ALERT
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 13:43:01 IST 2026
+
+CPU Usage: 100% - [0;31mALERT[0m
+[2026-04-24 13:43:01] CPU ALERT 100%
+Memory Usage: 64.6% - [0;32mPASS[0m
+[2026-04-24 13:43:02] MEMORY PASS 64.6%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 13:43:02] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 13:43:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 13:43:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 13:43:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated successfully → /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 13:44:01 IST 2026
+
+CPU Usage: 100% - [0;31mALERT[0m
+[2026-04-24 13:44:02] CPU ALERT 100%
+Memory Usage: 65.1% - [0;32mPASS[0m
+[2026-04-24 13:44:02] MEMORY PASS 65.1%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 13:44:02] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 13:44:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 13:44:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 13:44:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated successfully → /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 13:45:01 IST 2026
+
+CPU Usage: 100% - [0;31mALERT[0m
+[2026-04-24 13:45:02] CPU ALERT 100%
+Memory Usage: 65.1% - [0;32mPASS[0m
+[2026-04-24 13:45:02] MEMORY PASS 65.1%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 13:45:02] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 13:45:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 13:45:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 13:45:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated successfully → /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 13:46:01 IST 2026
+
+CPU Usage: 73.5% - [0;32mPASS[0m
+[2026-04-24 13:46:02] CPU PASS 73.5%
+Memory Usage: 65.4% - [0;32mPASS[0m
+[2026-04-24 13:46:02] MEMORY PASS 65.4%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 13:46:02] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 13:46:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 13:46:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 13:46:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated successfully → /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 13:50:01 IST 2026
+
+CPU Usage: 6.1% - [0;32mPASS[0m
+[2026-04-24 13:50:01] CPU PASS 6.1%
+Memory Usage: 65.6% - [0;32mPASS[0m
+[2026-04-24 13:50:01] MEMORY PASS 65.6%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 13:50:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 13:50:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 13:50:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 13:50:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated successfully → /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 13:55:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 13:55:01] CPU PASS 11.8%
+Memory Usage: 65.2% - [0;32mPASS[0m
+[2026-04-24 13:55:01] MEMORY PASS 65.2%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 13:55:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 13:55:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 13:55:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 13:55:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated successfully → /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:00:01 IST 2026
+
+CPU Usage: 37.1% - [0;32mPASS[0m
+[2026-04-24 14:00:02] CPU PASS 37.1%
+Memory Usage: 65.2% - [0;32mPASS[0m
+[2026-04-24 14:00:02] MEMORY PASS 65.2%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:00:02] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:00:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:00:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:00:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated successfully → /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:05:01 IST 2026
+
+CPU Usage: 9.4% - [0;32mPASS[0m
+[2026-04-24 14:05:01] CPU PASS 9.4%
+Memory Usage: 66.5% - [0;32mPASS[0m
+[2026-04-24 14:05:01] MEMORY PASS 66.5%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:05:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:05:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:05:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:05:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated successfully → /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:10:01 IST 2026
+
+CPU Usage: 9.4% - [0;32mPASS[0m
+[2026-04-24 14:10:01] CPU PASS 9.4%
+Memory Usage: 66.0% - [0;32mPASS[0m
+[2026-04-24 14:10:01] MEMORY PASS 66.0%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:10:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:10:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:10:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:10:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:15:01 IST 2026
+
+CPU Usage: 27.3% - [0;32mPASS[0m
+[2026-04-24 14:15:02] CPU PASS 27.3%
+Memory Usage: 66.0% - [0;32mPASS[0m
+[2026-04-24 14:15:02] MEMORY PASS 66.0%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:15:02] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:15:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:15:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:15:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:20:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 14:20:01] CPU PASS 11.8%
+Memory Usage: 63.1% - [0;32mPASS[0m
+[2026-04-24 14:20:01] MEMORY PASS 63.1%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:20:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:20:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:20:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:20:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:25:01 IST 2026
+
+CPU Usage: 9.1% - [0;32mPASS[0m
+[2026-04-24 14:25:01] CPU PASS 9.1%
+Memory Usage: 62.7% - [0;32mPASS[0m
+[2026-04-24 14:25:01] MEMORY PASS 62.7%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:25:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:25:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:25:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:25:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:30:01 IST 2026
+
+CPU Usage: 6.2% - [0;32mPASS[0m
+[2026-04-24 14:30:02] CPU PASS 6.2%
+Memory Usage: 63.4% - [0;32mPASS[0m
+[2026-04-24 14:30:02] MEMORY PASS 63.4%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:30:02] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:30:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:30:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:30:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:35:01 IST 2026
+
+CPU Usage: 13.9% - [0;32mPASS[0m
+[2026-04-24 14:35:01] CPU PASS 13.9%
+Memory Usage: 63.2% - [0;32mPASS[0m
+[2026-04-24 14:35:01] MEMORY PASS 63.2%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:35:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:35:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:35:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:35:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:40:01 IST 2026
+
+CPU Usage: 11.4% - [0;32mPASS[0m
+[2026-04-24 14:40:01] CPU PASS 11.4%
+Memory Usage: 63.3% - [0;32mPASS[0m
+[2026-04-24 14:40:01] MEMORY PASS 63.3%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:40:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:40:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:40:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:40:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:45:01 IST 2026
+
+CPU Usage: 6.5% - [0;32mPASS[0m
+[2026-04-24 14:45:01] CPU PASS 6.5%
+Memory Usage: 63.4% - [0;32mPASS[0m
+[2026-04-24 14:45:01] MEMORY PASS 63.4%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:45:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:45:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:45:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:45:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:50:01 IST 2026
+
+CPU Usage: 34.3% - [0;32mPASS[0m
+[2026-04-24 14:50:01] CPU PASS 34.3%
+Memory Usage: 63.5% - [0;32mPASS[0m
+[2026-04-24 14:50:01] MEMORY PASS 63.5%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:50:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:50:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:50:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:50:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 14:55:01 IST 2026
+
+CPU Usage: 14.3% - [0;32mPASS[0m
+[2026-04-24 14:55:01] CPU PASS 14.3%
+Memory Usage: 63.8% - [0;32mPASS[0m
+[2026-04-24 14:55:01] MEMORY PASS 63.8%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 14:55:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 14:55:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 14:55:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 14:55:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:00:01 IST 2026
+
+CPU Usage: 14.3% - [0;32mPASS[0m
+[2026-04-24 15:00:01] CPU PASS 14.3%
+Memory Usage: 64.0% - [0;32mPASS[0m
+[2026-04-24 15:00:01] MEMORY PASS 64.0%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 15:00:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:00:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:00:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:00:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:05:02 IST 2026
+
+CPU Usage: 48.6% - [0;32mPASS[0m
+[2026-04-24 15:05:02] CPU PASS 48.6%
+Memory Usage: 63.9% - [0;32mPASS[0m
+[2026-04-24 15:05:02] MEMORY PASS 63.9%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 15:05:02] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:05:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:05:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:05:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:10:01 IST 2026
+
+CPU Usage: 12.1% - [0;32mPASS[0m
+[2026-04-24 15:10:01] CPU PASS 12.1%
+Memory Usage: 64.1% - [0;32mPASS[0m
+[2026-04-24 15:10:01] MEMORY PASS 64.1%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 15:10:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:10:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:10:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:10:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:15:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 15:15:01] CPU PASS 11.8%
+Memory Usage: 64.2% - [0;32mPASS[0m
+[2026-04-24 15:15:01] MEMORY PASS 64.2%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 15:15:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:15:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:15:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:15:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:20:01 IST 2026
+
+CPU Usage: 47.1% - [0;32mPASS[0m
+[2026-04-24 15:20:02] CPU PASS 47.1%
+Memory Usage: 64.0% - [0;32mPASS[0m
+[2026-04-24 15:20:02] MEMORY PASS 64.0%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 15:20:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:20:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:20:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:20:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:25:01 IST 2026
+
+CPU Usage: 12.1% - [0;32mPASS[0m
+[2026-04-24 15:25:01] CPU PASS 12.1%
+Memory Usage: 63.7% - [0;32mPASS[0m
+[2026-04-24 15:25:01] MEMORY PASS 63.7%
+Disk Usage: 49% - [0;32mPASS[0m
+[2026-04-24 15:25:01] DISK PASS 49%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:25:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:25:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:25:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:30:01 IST 2026
+
+CPU Usage: 9.4% - [0;32mPASS[0m
+[2026-04-24 15:30:01] CPU PASS 9.4%
+Memory Usage: 64.2% - [0;32mPASS[0m
+[2026-04-24 15:30:01] MEMORY PASS 64.2%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 15:30:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:30:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:30:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:30:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:35:01 IST 2026
+
+CPU Usage: 25% - [0;32mPASS[0m
+[2026-04-24 15:35:02] CPU PASS 25%
+Memory Usage: 64.3% - [0;32mPASS[0m
+[2026-04-24 15:35:02] MEMORY PASS 64.3%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 15:35:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:35:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:35:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:35:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:40:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 15:40:01] CPU PASS 11.8%
+Memory Usage: 64.7% - [0;32mPASS[0m
+[2026-04-24 15:40:01] MEMORY PASS 64.7%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 15:40:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:40:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:40:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:40:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:45:01 IST 2026
+
+CPU Usage: 8.8% - [0;32mPASS[0m
+[2026-04-24 15:45:01] CPU PASS 8.8%
+Memory Usage: 64.5% - [0;32mPASS[0m
+[2026-04-24 15:45:01] MEMORY PASS 64.5%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 15:45:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:45:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:45:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:45:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:50:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 15:50:01] CPU PASS 11.8%
+Memory Usage: 64.7% - [0;32mPASS[0m
+[2026-04-24 15:50:01] MEMORY PASS 64.7%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 15:50:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:50:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:50:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:50:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 15:55:01 IST 2026
+
+CPU Usage: 25% - [0;32mPASS[0m
+[2026-04-24 15:55:01] CPU PASS 25%
+Memory Usage: 65.2% - [0;32mPASS[0m
+[2026-04-24 15:55:01] MEMORY PASS 65.2%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 15:55:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 15:55:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 15:55:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 15:55:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:00:01 IST 2026
+
+CPU Usage: 11.4% - [0;32mPASS[0m
+[2026-04-24 16:00:01] CPU PASS 11.4%
+Memory Usage: 67.0% - [0;32mPASS[0m
+[2026-04-24 16:00:01] MEMORY PASS 67.0%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:00:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:00:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:00:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:00:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:05:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 16:05:01] CPU PASS 11.8%
+Memory Usage: 65.2% - [0;32mPASS[0m
+[2026-04-24 16:05:01] MEMORY PASS 65.2%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:05:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:05:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:05:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:05:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:10:01 IST 2026
+
+CPU Usage: 31.4% - [0;32mPASS[0m
+[2026-04-24 16:10:01] CPU PASS 31.4%
+Memory Usage: 65.7% - [0;32mPASS[0m
+[2026-04-24 16:10:01] MEMORY PASS 65.7%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:10:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:10:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:10:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:10:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:15:01 IST 2026
+
+CPU Usage: 9.4% - [0;32mPASS[0m
+[2026-04-24 16:15:01] CPU PASS 9.4%
+Memory Usage: 65.6% - [0;32mPASS[0m
+[2026-04-24 16:15:01] MEMORY PASS 65.6%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:15:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:15:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:15:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:15:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:20:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 16:20:01] CPU PASS 11.8%
+Memory Usage: 65.5% - [0;32mPASS[0m
+[2026-04-24 16:20:01] MEMORY PASS 65.5%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:20:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:20:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:20:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:20:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:25:02 IST 2026
+
+CPU Usage: 45.5% - [0;32mPASS[0m
+[2026-04-24 16:25:02] CPU PASS 45.5%
+Memory Usage: 64.0% - [0;32mPASS[0m
+[2026-04-24 16:25:02] MEMORY PASS 64.0%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:25:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:25:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:25:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:25:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:30:01 IST 2026
+
+CPU Usage: 14.3% - [0;32mPASS[0m
+[2026-04-24 16:30:01] CPU PASS 14.3%
+Memory Usage: 64.0% - [0;32mPASS[0m
+[2026-04-24 16:30:01] MEMORY PASS 64.0%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:30:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:30:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:30:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:30:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+[2026-04-24 16:31:57] CPU PASS 8.8%
+[2026-04-24 16:31:57] MEMORY PASS 64.4%
+[2026-04-24 16:31:57] DISK PASS 50%
+[2026-04-24 16:31:57] SERVICE:sshd PASS
+[2026-04-24 16:31:57] SERVICE:crond PASS
+[2026-04-24 16:31:57] SERVICE:nginx ALERT
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:35:01 IST 2026
+
+CPU Usage: 6.2% - [0;32mPASS[0m
+[2026-04-24 16:35:01] CPU PASS 6.2%
+Memory Usage: 69.0% - [0;32mPASS[0m
+[2026-04-24 16:35:01] MEMORY PASS 69.0%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:35:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:35:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:35:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:35:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:40:02 IST 2026
+
+CPU Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:40:02] CPU PASS 50%
+Memory Usage: 64.2% - [0;32mPASS[0m
+[2026-04-24 16:40:02] MEMORY PASS 64.2%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:40:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:40:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:40:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:40:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:45:01 IST 2026
+
+CPU Usage: 14.3% - [0;32mPASS[0m
+[2026-04-24 16:45:01] CPU PASS 14.3%
+Memory Usage: 64.6% - [0;32mPASS[0m
+[2026-04-24 16:45:01] MEMORY PASS 64.6%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:45:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:45:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:45:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:45:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:50:01 IST 2026
+
+CPU Usage: 9.1% - [0;32mPASS[0m
+[2026-04-24 16:50:01] CPU PASS 9.1%
+Memory Usage: 64.8% - [0;32mPASS[0m
+[2026-04-24 16:50:01] MEMORY PASS 64.8%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:50:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:50:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:50:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:50:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 16:55:02 IST 2026
+
+CPU Usage: 48.6% - [0;32mPASS[0m
+[2026-04-24 16:55:02] CPU PASS 48.6%
+Memory Usage: 64.8% - [0;32mPASS[0m
+[2026-04-24 16:55:02] MEMORY PASS 64.8%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 16:55:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 16:55:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 16:55:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 16:55:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:00:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 17:00:01] CPU PASS 11.8%
+Memory Usage: 65.1% - [0;32mPASS[0m
+[2026-04-24 17:00:01] MEMORY PASS 65.1%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:00:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:00:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:00:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:00:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:05:01 IST 2026
+
+CPU Usage: 16.7% - [0;32mPASS[0m
+[2026-04-24 17:05:01] CPU PASS 16.7%
+Memory Usage: 65.1% - [0;32mPASS[0m
+[2026-04-24 17:05:01] MEMORY PASS 65.1%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:05:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:05:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:05:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:05:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:10:01 IST 2026
+
+CPU Usage: 30.3% - [0;32mPASS[0m
+[2026-04-24 17:10:02] CPU PASS 30.3%
+Memory Usage: 65.3% - [0;32mPASS[0m
+[2026-04-24 17:10:02] MEMORY PASS 65.3%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:10:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:10:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:10:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:10:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:15:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 17:15:01] CPU PASS 11.8%
+Memory Usage: 65.2% - [0;32mPASS[0m
+[2026-04-24 17:15:01] MEMORY PASS 65.2%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:15:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:15:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:15:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:15:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:20:01 IST 2026
+
+CPU Usage: 11.4% - [0;32mPASS[0m
+[2026-04-24 17:20:01] CPU PASS 11.4%
+Memory Usage: 65.4% - [0;32mPASS[0m
+[2026-04-24 17:20:01] MEMORY PASS 65.4%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:20:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:20:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:20:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:20:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:25:01 IST 2026
+
+CPU Usage: 40% - [0;32mPASS[0m
+[2026-04-24 17:25:02] CPU PASS 40%
+Memory Usage: 65.2% - [0;32mPASS[0m
+[2026-04-24 17:25:02] MEMORY PASS 65.2%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:25:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:25:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:25:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:25:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:30:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 17:30:01] CPU PASS 11.8%
+Memory Usage: 65.7% - [0;32mPASS[0m
+[2026-04-24 17:30:01] MEMORY PASS 65.7%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:30:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:30:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:30:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:30:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:35:01 IST 2026
+
+CPU Usage: 11.4% - [0;32mPASS[0m
+[2026-04-24 17:35:01] CPU PASS 11.4%
+Memory Usage: 65.4% - [0;32mPASS[0m
+[2026-04-24 17:35:01] MEMORY PASS 65.4%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:35:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:35:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:35:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:35:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:40:01 IST 2026
+
+CPU Usage: 39.4% - [0;32mPASS[0m
+[2026-04-24 17:40:02] CPU PASS 39.4%
+Memory Usage: 65.7% - [0;32mPASS[0m
+[2026-04-24 17:40:02] MEMORY PASS 65.7%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:40:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:40:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:40:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:40:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:45:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 17:45:01] CPU PASS 11.8%
+Memory Usage: 63.2% - [0;32mPASS[0m
+[2026-04-24 17:45:01] MEMORY PASS 63.2%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:45:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:45:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:45:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:45:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:50:01 IST 2026
+
+CPU Usage: 14.3% - [0;32mPASS[0m
+[2026-04-24 17:50:01] CPU PASS 14.3%
+Memory Usage: 63.4% - [0;32mPASS[0m
+[2026-04-24 17:50:01] MEMORY PASS 63.4%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:50:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:50:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:50:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:50:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 17:55:01 IST 2026
+
+CPU Usage: 20.6% - [0;32mPASS[0m
+[2026-04-24 17:55:02] CPU PASS 20.6%
+Memory Usage: 63.5% - [0;32mPASS[0m
+[2026-04-24 17:55:02] MEMORY PASS 63.5%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 17:55:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 17:55:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 17:55:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 17:55:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 18:00:01 IST 2026
+
+CPU Usage: 14.7% - [0;32mPASS[0m
+[2026-04-24 18:00:01] CPU PASS 14.7%
+Memory Usage: 63.4% - [0;32mPASS[0m
+[2026-04-24 18:00:01] MEMORY PASS 63.4%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 18:00:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 18:00:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 18:00:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 18:00:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 18:05:01 IST 2026
+
+CPU Usage: 8.8% - [0;32mPASS[0m
+[2026-04-24 18:05:01] CPU PASS 8.8%
+Memory Usage: 63.4% - [0;32mPASS[0m
+[2026-04-24 18:05:01] MEMORY PASS 63.4%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 18:05:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 18:05:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 18:05:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 18:05:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 18:10:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 18:10:01] CPU PASS 11.8%
+Memory Usage: 63.5% - [0;32mPASS[0m
+[2026-04-24 18:10:02] MEMORY PASS 63.5%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 18:10:02] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 18:10:02] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 18:10:02] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 18:10:02] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 18:15:01 IST 2026
+
+CPU Usage: 24.2% - [0;32mPASS[0m
+[2026-04-24 18:15:01] CPU PASS 24.2%
+Memory Usage: 63.9% - [0;32mPASS[0m
+[2026-04-24 18:15:01] MEMORY PASS 63.9%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 18:15:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 18:15:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 18:15:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 18:15:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html
+==============================
+ Server Health Monitor Report 
+==============================
+Timestamp: Fri 24 Apr 18:20:01 IST 2026
+
+CPU Usage: 11.8% - [0;32mPASS[0m
+[2026-04-24 18:20:01] CPU PASS 11.8%
+Memory Usage: 64.5% - [0;32mPASS[0m
+[2026-04-24 18:20:01] MEMORY PASS 64.5%
+Disk Usage: 50% - [0;32mPASS[0m
+[2026-04-24 18:20:01] DISK PASS 50%
+Service: sshd - [0;32mPASS[0m
+[2026-04-24 18:20:01] SERVICE:sshd PASS
+Service: crond - [0;32mPASS[0m
+[2026-04-24 18:20:01] SERVICE:crond PASS
+Service: nginx - [0;31mALERT[0m
+[2026-04-24 18:20:01] SERVICE:nginx ALERT
+
+Health check completed.
+HTML report generated at: /home/xwazo/studies-test/health-monitor/reports/report.html

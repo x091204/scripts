@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+
+echo "==============backup-script=============="
+read -p "Enter the the directory you want to backup: " SOURCE
+DESTINATION="/home/xwazo/back-up"
+DATE=$(date +"%Y-%m-%d")
+
+FILENAME="$(basename $SOURCE)_$DATE.tar.gz"
+BACKUP_PATH="$DESTINATION/$FILENAME"
+
+mkdir -p $DESTINATION
+tar -czf $BACKUP_PATH $SOURCE
+
+if [ $? -eq 0 ]; then
+	echo "Backup success — saved to $BACKUP_PATH"
+else
+	echo "Backup failed, try again"
+fi

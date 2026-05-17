@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+
+echo "--  system info  --"
+echo "===================="
+echo "Hostname: $HOSTNAME"
+echo "Current User: $(whoami)"
+echo "Up-time: $(uptime -p)"
+echo "RAM Usage: $(free -h | grep -i mem | awk '{printf "%.2f%%", ($3/$2)*100}')"
+echo "Disk Usage: $(df -h | grep -i /dev/mapper/rhel-root | awk '{print $5}')"
+echo "CPU info: $(lscpu | grep -i "model name" | awk -F: '{gsub(/^[ \t]+/, "", $2); print $2}')"
