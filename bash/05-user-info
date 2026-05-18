@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+USER=$(who | awk '{print $1}')
+
+echo "==== user info ===="
+echo "Current User: $USER"
+echo "=== Last 10 Logins ==="
+last | head -10
+

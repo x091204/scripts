@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+USAGE=$(df -h / | awk 'NR==2 {print $5}' | tr -d '%')
+
+echo "===disk usage==="
+if (( $USAGE > 80 ));then
+	echo "ALERT DISK USAGE IS ABOVE 80%"
+else
+	echo "DISK USAGE IS NORMAL"
+fi
+
