@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+echo "==== PORT SCANNER ===="
+read -p "Enter the ip address you want to check: " IP_ADD
+PORTS=(20 21 22 23 25 53 67 68 80 110 123 143 161 389 443 445 3306 3389 5432 6379 8080 9090 6443 8000 3000)
+for PORT in "${PORTS[@]}"; do
+	(echo > /dev/tcp/$IP_ADD/$PORT) 2>/dev/null && echo "Port $PORT -- OPEN"
+done
+

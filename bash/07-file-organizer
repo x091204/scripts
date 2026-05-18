@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+read -p "Enter directory to organize: " DIR
+mkdir -p $DIR/images $DIR/docs $DIR/scripts $DIR/others
+
+for FILE in $(find $DIR -maxdepth 1 -type f); do
+	case $FILE in 
+		*.jpg|*.png|*.jpeg) mv $FILE $DIR/images ;;
+		*.pdf|*.txt|*.docx) mv $FILE $DIR/docs ;;
+		*.sh)		    mv $FILE $DIR/scripts ;;
+		*)		    mv $FILE $DIR/others ;;
+	esac
+done
+echo "organizing is successful"
