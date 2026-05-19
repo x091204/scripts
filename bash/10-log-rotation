@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+LOG_FILE="/var/log/messages"
+LOG_STORE="/var/log/archive"
+sudo mkdir -p $LOG_STORE
+SIZE=$(sudo wc -c /var/log/messages | awk '{printf "%.0f", $1/1024/1024}')
+MAX_SIZE=500 ##MB
+
+if (( $SIZE > $MAX_SIZE)); then
+	sudo mv $LOG_FILE $LOG_STORE/messages.$(date +"%y-%m-%d")
+	sudo touch $LOG_FILE
+	ls -t $LOG_STORE | tail -n +6 | xargs -I {} sudo rm $LOG_STORE/{}
+	echo "log file cleared moved the older one to $LOG_STORE"
+else
+	echo "LOG FILE IS UNDER 50MB"
+fi
+

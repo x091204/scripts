@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+
+echo "=== health check report ==="
+echo "Date: $(date)"
+echo "Hostname: $HOSTNAME"
+echo "==========================="
+
+## disk
+DISK_USAGE=$(df -h / | awk 'NR==2 {print $5}' | tr -d '%')
+if (( $DISK_USAGE > 80 ));then
+	echo "ALERT HIGH DISK USAGE"
+else
+	echo "DISK USAGE IS HEALTHY"
+fi
+
+## memory
+MEMORY_USAGE=$(free -m | awk 'NR==2 {printf "%.0f", (($2-$4)/$2)*100}')
+if (( $MEMORY_USAGE > 80 ));then
+        echo "ALERT HIGH MEMORY USAGE"
+else
+        echo "MEMORY USAGE IS HEALTHY"
+fi
+
+## cpu
+CPU_USAGE=$( top -bn1 | grep "Cpu(s)" | awk '{printf "%.0f",  100-$8}')
+if (( $CPU_USAGE > 80 ));then
+        echo "ALERT HIGH CPU USAGE"
+else
+        echo "CPU USAGE IS HEALTHY"
+fi
+
+## service checker
+SERVICES=( sshd nginx )
+for SERVICE in "${SERVICES[@]}"; do
+	if systemctl is-active --quiet $SERVICE; then
+		echo "$SERVICE is running"
+	else
+		echo "$SERVICE is stopped"
+	fi
+done

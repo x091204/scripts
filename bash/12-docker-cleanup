@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+echo "=== docker cleaner ==="
+echo "choose an option: "
+echo "0.exit"
+echo "1.Remove stopped container"
+echo "2.Remove unused images"
+echo "3.remove unused volumes"
+echo "4.Complete clean up"
+read -p "ENTER YOUR VALUE(e.g. 1,2,3..): " USER_INPUT
+if (( USER_INPUT == 0  ));then
+	exit 0
+else
+	case $USER_INPUT in
+		1) docker container prune -f ;;
+		2) docker image prune -a -f ;;
+		3) docker volume prune -f ;;
+		4) docker system prune -a --volumes -f ;;
+		*) echo "invalid option" ;;
+	esac
+fi	
