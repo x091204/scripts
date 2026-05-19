@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+set -e
+trap 'echo "Script failed at line $LINENO" >&2' ERR
+
+read -p "Enter repo URL: " REPO
+read -p "Enter The Image Name: " IMAGE_NAME
+read -p "Enter The Tag Value: " IMAGE_TAG
+REGISTERY_REPO="akifmhd"
+FULL_IMAGE=$REGISTERY_REPO/$IMAGE_NAME:$IMAGE_TAG
+
+git clone $REPO
+REPO_NAME=$(basename -s .git "$REPO")
+cd "$REPO_NAME" || exit 1
+
+echo "creating image....."
+docker build -t $IMAGE_NAME . && echo "build successful" || echo "build failure"
+echo "tagging the image"
+docker tag $IMAGE_NAME $FULL_IMAGE && echo "tagging successful" || echo "tagging failure"
+echo "pushing to the registery"
+docker push $FULL_IMAGE && echo "push successful" || echo "push failure"
+echo "SUCCESSFUlLY COMPLETED"
