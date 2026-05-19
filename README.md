@@ -3,7 +3,6 @@
 A collection of practical Bash scripts written for real DevOps and system administration use cases.
 Built on RHEL Linux as part of hands-on DevOps learning.
 
----
 
 ## 📋 Scripts
 
@@ -22,7 +21,6 @@ Built on RHEL Linux as part of hands-on DevOps learning.
 | 11 | `11-deployment` | Clones a git repo, builds a Docker image, tags it, and pushes it to a container registry with error handling |
 | 12 | `12-docker-cleaner` | Interactive menu to remove stopped containers, unused images, unused volumes, or do a full system prune |
 
----
 
 ## 🚀 Usage
 
@@ -44,7 +42,6 @@ sudo cp 01-system-info /usr/local/bin/system-info
 system-info
 ```
 
----
 
 ## 🧰 Tech Used
 
@@ -54,7 +51,6 @@ system-info
 - Docker CLI
 - Git
 
----
 
 ## 📁 Requirements
 
@@ -64,7 +60,6 @@ system-info
 - Git (for script 11)
 - `sudo` access (for scripts 03, 10)
 
----
 
 ## 👤 Author
 
