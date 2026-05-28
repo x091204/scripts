@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+import os
+import subprocess
+import datetime
+
+print("=== backup ===")
+DIR = input("enter the directory for backup: ")
+DESTINATION = "/home/xwazo/back-up"
+DATE = datetime.datetime.now().strftime("%Y-%m-%d")
+
+FILE_NAME = os.path.basename(DIR)
+PARENT_DIR = os.path.dirname(DIR)
+BACKUP_PATH = os.path.join(DESTINATION, f"{FILE_NAME}_{DATE}.tar.gz")
+
+subprocess.run(["mkdir", "-p", DESTINATION])
+result = subprocess.run(["tar", "-czf", BACKUP_PATH, "-C", PARENT_DIR,  FILE_NAME])
+
+if result.returncode == 0:
+    print(f"backup created sucessfully in folder {BACKUP_PATH}")
+else:
+    print("backup creation failed")
+
